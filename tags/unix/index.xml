@@ -2,13 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>FreeBSD</title>
-    <link>https://freebsd.es/index.xml</link>
+    <link>https://freebsd.es/tags/unix/index.xml</link>
     <description>Recent content on FreeBSD</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright> </copyright>
-    <lastBuildDate>Sun, 30 Oct 2016 01:29:51 +0200</lastBuildDate>
-    <atom:link href="https://freebsd.es/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://freebsd.es/tags/unix/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>FreeBSD</title>
@@ -44,17 +43,6 @@ renombre.&lt;/p&gt;
 coste, FreeBSD está disponible &lt;a href=&#34;https://www.freebsd.org/es/copyright/index.html&#34;&gt;completamente gratis&lt;/a&gt;
 incluyendo el código fuente. Si quiere probarlo, &lt;a href=&#34;https://www.freebsd.org/doc/es_ES.ISO8859-1/books/handbook/mirrors.html&#34;&gt;aquí tiene más información.&lt;/a&gt;&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Contribuye &amp; Participa</title>
-      <link>https://freebsd.es/README/</link>
-      <pubDate>Sun, 30 Oct 2016 00:49:06 +0200</pubDate>
-      
-      <guid>https://freebsd.es/README/</guid>
-      <description>&lt;p&gt;&lt;/p&gt;
-
-&lt;p&gt;TODO&lt;/p&gt;</description>
     </item>
     
   </channel>

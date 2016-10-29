@@ -29,7 +29,7 @@
 <meta property="og:url" content="https://freebsd.es/" />
 
 
-<meta property="og:updated_time" content="2016-10-30T00:49:06&#43;02:00"/>
+<meta property="og:updated_time" content="2016-10-30T01:29:51&#43;02:00"/>
 
 
 
@@ -163,12 +163,12 @@
     </div>
     <div class="article-info profile-block">
       <div class="article-info-block">
-        0
+        1
         <span>Posts</span>
       </div>
       <div class="article-info-block">
         
-          2
+          4
         
         <span>
             Tags
@@ -243,6 +243,147 @@
     <section id="main">
     
     
+    <article class="article article-type-post" itemscope="" itemprop="blogPost">
+        <div class="article-inner">
+            
+            <a href="https://freebsd.es/post/freebsd/" itemprop="url">
+                <img src="https://freebsd.es/banners/beastie.png" class="article-banner">
+            
+            </a>
+
+            <header class="article-header">
+    <a href="https://freebsd.es/post/freebsd/">
+    <h1 class="article-title" itemprop="name">
+        FreeBSD
+    </h1>
+    </a>
+    <div class="article-meta">
+        <div class="article-date">
+            <i class="fa fa-calendar"></i>
+            <time datetime="2016-10-30 01:29:51 &#43;0200 CEST" itemprop="datePublished">2016-10-30</time>
+            &middot;
+            128
+            palabras
+            &middot;
+            1
+            minutos de lectura
+        </div>
+
+        
+        
+
+        
+            
+            
+            <div class="article-category">
+                <i class="fa fa-tags"></i>
+                
+                <a class="article-category-link" href="https://freebsd.es/tags/freebsd">freebsd</a>
+                &middot;
+                
+                <a class="article-category-link" href="https://freebsd.es/tags/unix">unix</a>
+                
+                
+            </div>
+            
+        
+    </div>
+</header>
+
+            <div class="article-entry" itemprop="articleBody">
+                <p>
+                    ¿Qué es FreeBSD? FreeBSD es un avanzado sistema operativo para arquitecturas x86 compatibles (incluyendo Pentium® y Athlon™), amd64 compatibles (incluyendo Opteron™, Athlon™64 y EM64T), Alpha/AXP, IA-64, PC-98 y UltraSPARC®.
+FreeBSD es un derivado de BSD, la versión de UNIX® desarrollada en la Universidad de California, Berkeley. FreeBSD es desarrollado y mantenido por un numeroso equipo de personas.
+El soporte para otras arquitecturas está en diferentes fases de desarrollo.
+Características principales FreeBSD ofrece altas prestaciones en comunicaciones de red, rendimiento, seguridad y compatibilidad, todavía inexistentes en otros sistemas operativos, incluyendo los comerciales de mayor renombre.
+                    <br>
+                </p>
+                <p class="article-more-link">
+                    <a href="https://freebsd.es/post/freebsd/">
+                        Lee mas
+                    </a>
+                </p>
+            </div>
+            <footer class="article-footer">
+    <a data-url="https://freebsd.es/post/freebsd/" data-id="6866139a28974a64b56c6cfc19021b77" class="article-share-link">
+        <i class="fa fa-share"></i>
+        Compartir
+    </a>
+    
+    <a href="https://freebsd.es/post/freebsd//#disqus_thread" class="article-comment-link">
+        Comentarios
+    </a>
+    
+
+    <script>
+    (function ($) {
+        
+        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
+            __SHARE_BUTTON_BINDED__ = true;
+        } else {
+            return;
+        }
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fa fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fa fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fa fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fa fa-google article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+    </script>
+</footer>
+
+        </div>
+    </article>
+    
 
     <nav id="page-nav">
 
@@ -259,6 +400,23 @@
     </h3>
     <div class="widget">
         <ul id="recent-post">
+            
+            <li>
+                <div class="item-thumbnail">
+                    <a href="https://freebsd.es/post/freebsd/" class="thumbnail">
+                    
+                        <span style="background-image:url(https://freebsd.es/banners/beastie.png)" alt="FreeBSD" class="thumbnail-image"></span>
+                    
+                    </a>
+                </div>
+                <div class="item-inner">
+                    
+                    <p class="item-title"><a href="https://freebsd.es/post/freebsd/" class="title">FreeBSD</a></p>
+                    <p class="item-date">
+                        <time datetime="2016-10-30 01:29:51 &#43;0200 CEST" itemprop="datePublished">2016-10-30</time>
+                    </p>
+                </div>
+            </li>
             
         </ul>
     </div>
@@ -288,8 +446,22 @@
             </li>
             
             <li class="category-list-item">
+                <a class="category-list-link" href="https://freebsd.es/tags/freebsd">
+                    freebsd
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
                 <a class="category-list-link" href="https://freebsd.es/tags/participa">
                     participa
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                <a class="category-list-link" href="https://freebsd.es/tags/unix">
+                    unix
                 </a>
                 <span class="category-list-count">1</span>
             </li>
@@ -311,7 +483,11 @@
         
         <a href="https://freebsd.es/tags/contribuye" style="font-size: 12px;">contribuye</a>
         
+        <a href="https://freebsd.es/tags/freebsd" style="font-size: 12px;">freebsd</a>
+        
         <a href="https://freebsd.es/tags/participa" style="font-size: 12px;">participa</a>
+        
+        <a href="https://freebsd.es/tags/unix" style="font-size: 12px;">unix</a>
         
     </div>
 </div>
