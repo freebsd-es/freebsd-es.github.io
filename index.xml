@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>FreeBSD</title>
+    <link>https://freebsd.es/index.xml</link>
+    <description>Recent content on FreeBSD</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright> </copyright>
+    <atom:link href="https://freebsd.es/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title></title>
+      <link>https://freebsd.es/README/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://freebsd.es/README/</guid>
+      <description>
+
+&lt;h1 id=&#34;contenido&#34;&gt;contenido&lt;/h1&gt;
+
+&lt;p&gt;contenido del sitio freebsd.es&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
